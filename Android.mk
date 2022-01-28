@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter lemonade lemonadep,$(TARGET_DEVICE)),)
+ifneq ($(filter cupid martini OP524F RMX3312 RMX3360 RMX3461,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
