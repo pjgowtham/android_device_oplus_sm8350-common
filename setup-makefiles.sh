@@ -25,7 +25,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
 
 # Warning headers and guards
-write_headers "lemonade lemonadep"
+write_headers "martini OP524F RMX2202 RMX3312 RMX3360 RMX3461"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
