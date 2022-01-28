@@ -6,7 +6,7 @@
 <resources>
 
     <!-- Do not translate. Default access point SSID used for tethering. -->
-    <string name="wifi_tether_configure_ssid_default" translatable="false">OnePlus</string>
+    <string name="wifi_tether_configure_ssid_default" translatable="false">Oplus</string>
 
     <!-- Array describing scanning schedule in seconds when device is disconnected and screen is on -->
     <integer-array name="config_wifiDisconnectedScanIntervalScheduleSec">
