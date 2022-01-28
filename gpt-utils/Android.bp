@@ -16,7 +16,7 @@
 
 
 cc_library {
-    name: "libgptutils.oneplus_lahaina",
+    name: "libgptutils.oplus_lahaina",
     vendor: true,
     recovery_available: true,
     shared_libs: [
