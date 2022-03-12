@@ -275,15 +275,25 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
 # NFC
+ifeq ($(OPLUS_DEVICE_USES_ST21_NFC),true)
+PRODUCT_PACKAGES += \
+    android.hardware.secure_element@1.2.vendor \
+    android.hardware.nfc@1.2-service.st \
+    android.hardware.nfc@1.2.vendor \
+    android.hardware.secure_element@1.2-service-gto \
+    com.android.nfc_extras \
+    Tag
+endif
+ifeq ($(OPLUS_DEVICE_USES_SN100X_NFC),true)
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/opensource/sn100x
-
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
     nqnfcinfo \
-    vendor.nxp.hardware.nfc@2.0-service \
-    Tag
+    Tag \
+    vendor.nxp.hardware.nfc@2.0-service
+endif
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.ese.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.ese.xml \
