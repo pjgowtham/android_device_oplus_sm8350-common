@@ -152,8 +152,6 @@ system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 
 # Camera
 odm/lib/libDeVIS.so
-odm/lib/libdehaze.so
-odm/lib/libnightvision.so
 odm/lib64/libAlgoInterface.so
 odm/lib64/libAlgoProcess.so
 odm/lib64/libCOppLceTonemapAPI.so
@@ -179,61 +177,21 @@ odm/lib64/libVDSuperPhotoAPI.so
 odm/lib64/libVDUpScale.so
 odm/lib64/libWaterMark.so
 odm/lib64/libWaterMode.so
-odm/lib64/lib_oplus_starburst_capture.so
-odm/lib64/lib_oplus_starburst_preview.so
 odm/lib64/libaps_frame_registration.so
 odm/lib64/libapsdarksight.so
 odm/lib64/libapsexif.so
 odm/lib64/libapsjpeg.so
-odm/lib64/libarcsoft_calibverify_TriCamera.so
-odm/lib64/libarcsoft_distortion_correction.so
-odm/lib64/libarcsoft_dual_sat.so
-odm/lib64/libarcsoft_dual_zoomtranslator.so
-odm/lib64/libarcsoft_dualcam_bokeh_api.so
-odm/lib64/libarcsoft_dualcam_refocus_left.so
-odm/lib64/libarcsoft_dualcam_refocus_preview.so
-odm/lib64/libarcsoft_dualcam_refocus_uw.so
-odm/lib64/libarcsoft_eis_wrapper.so
-odm/lib64/libarcsoft_hdr_couple_api.so
-odm/lib64/libarcsoft_hdr_couple_api_v4.so
-odm/lib64/libarcsoft_hdr_denoise_api.so
-odm/lib64/libarcsoft_hdr_denoise_api_v4.so
-odm/lib64/libarcsoft_hdrplus_hvx_stub.so
-odm/lib64/libarcsoft_high_dynamic_range.so
-odm/lib64/libarcsoft_high_dynamic_range_couple.so
-odm/lib64/libarcsoft_high_dynamic_range_couple_v4.so
-odm/lib64/libarcsoft_high_dynamic_range_v4.so
-odm/lib64/libarcsoft_lensstaindetection.so
-odm/lib64/libarcsoft_low_light_hdr.so
-odm/lib64/libarcsoft_pic_best.so
-odm/lib64/libarcsoft_portraitSN_hvx_stub.so
-odm/lib64/libarcsoft_portrait_super_night_raw.so
-odm/lib64/libarcsoft_preview_antibanding.so
-odm/lib64/libarcsoft_qnnhtp.so
-odm/lib64/libarcsoft_scbokeh_video.so
-odm/lib64/libarcsoft_smart_denoise.so
-odm/lib64/libarcsoft_smart_denoise_v4.so
-odm/lib64/libarcsoft_super_night_raw.so
-odm/lib64/libarcsoft_tricam_calibration.so
-odm/lib64/libarcsoft_tricam_verification.so
-odm/lib64/libarcsoft_triple_sat.so
-odm/lib64/libarcsoft_triple_zoomtranslator.so
-odm/lib64/libarcsoft_videoautozoom.so
 odm/lib64/libc++_shared.so
 odm/lib64/libdualcam_image_optical_zoom.so
 odm/lib64/libdualcam_optical_zoom_control.so
 odm/lib64/libdualcam_video_optical_zoom.so
-odm/lib64/libfastov_dsp.so
 odm/lib64/libhta.so
 odm/lib64/libhwconfigurationutil.so
 odm/lib64/libhyperlapse.so
 odm/lib64/libmpbase.so
 odm/lib64/libop-ai-beauty-body-detection.so
 odm/lib64/libop-ai-beauty-faceretouch-cn.so
-odm/lib64/liboplus_dehaze_module.so
 odm/lib64/liboplusvppfilter.so
-odm/lib64/liboptical_zoom_dc.so
-odm/lib64/liboptical_zoom_vs.so
 odm/lib64/libsnpe_dsp_domains_v2.so
 odm/lib64/libsnpe_dsp_domains_v3.so
 odm/lib64/libsnpe_htp.so
@@ -341,7 +299,6 @@ vendor/lib64/libcamxfdalgo.so
 vendor/lib64/libcamxfdengine.so
 vendor/lib64/libcamxifestriping.so
 vendor/lib64/libcamximageformatutils.so
-vendor/lib64/libcamxjson.so
 vendor/lib64/libcamxqsatalgo.so
 vendor/lib64/libcamxstatscore.so
 vendor/lib64/libcamxswispiqmodule.so
@@ -1355,7 +1312,6 @@ odm/firmware/ringtone_Rhythm_RTP.bin
 odm/firmware/ringtone_Sun_glittering_RTP.bin
 odm/firmware/shuntai24k_rtp.bin
 odm/firmware/t-jingle_RTP.bin
-odm/firmware/wentai24k_rtp.bin
 
 # VPP
 vendor/bin/hw/qconfigservice
