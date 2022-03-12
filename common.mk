@@ -407,6 +407,13 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+ifeq ($(OPLUS_DEVICE_USES_ST21_NFC),true)
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.st \
+    android.hardware.secure_element@1.2-service-gto \
+    NfcNci
+endif
+
 # OMX
 PRODUCT_PACKAGES += \
     libOmxAacEnc \
