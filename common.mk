@@ -221,6 +221,7 @@ PRODUCT_PACKAGES += \
     init.kernel.post_boot-lahaina.sh \
     init.kernel.post_boot-yupik.sh \
     init.oem_ftm.rc \
+    init.oplus.display.rc \
     init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
     init.qcom.factory.rc \
