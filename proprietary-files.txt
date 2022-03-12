@@ -768,7 +768,6 @@ vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
 # Media
-odm/etc/seccomp_policy/codec2.vendor.base.policy
 odm/lib/liboplusvppfilter.so
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
