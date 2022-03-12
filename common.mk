@@ -278,10 +278,18 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc_snxxx@1.2-service \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
     Tag
+ifeq ($(OPLUS_DEVICE_USES_SNXXX_NFC),true)
+PRODUCT_PACKAGES += \
+    android.hardware.nfc_snxxx@1.2-service
+endif
+ifeq ($(OPLUS_DEVICE_USES_ST21_NFC),true)
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.st \
+    android.hardware.nfc@1.2.vendor
+endif
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.ese.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.ese.xml \
