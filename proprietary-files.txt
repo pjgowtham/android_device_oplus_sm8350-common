@@ -335,7 +335,6 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP_170.elf
-vendor/firmware/tof8801_firmware.bin
 
 # CDSP
 vendor/bin/cdsprpcd
