@@ -1136,32 +1136,6 @@ vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
-# Touchscreen firmware
-odm/firmware/tp/19815/FW_S3908_SAMSUNG.img
-odm/firmware/tp/19815/FW_S3908_SAMSUNG_FAE.img
-odm/firmware/tp/19815/LIMIT_S3908_SAMSUNG.img
-odm/firmware/tp/19825/FW_S6SY792_SAMSUNG.bin
-odm/firmware/tp/19825/FW_S6SY792_SAMSUNG_FAE.bin
-odm/firmware/tp/19825/LIMIT_S6SY792_SAMSUNG.img
-odm/firmware/tp/20031/FW_S3908_SAMSUNG.img
-odm/firmware/tp/20031/FW_S3908_SAMSUNG_FAE.img
-odm/firmware/tp/20031/LIMIT_S3908_SAMSUNG.img
-odm/firmware/tp/20627/FW_FT3518_SAMSUNG.img
-odm/firmware/tp/20627/FW_FT3518_SAMSUNG_FAE.img
-odm/firmware/tp/20627/LIMIT_FT3518_SAMSUNG.img
-odm/firmware/tp/20659/FW_S6SY792_SAMSUNG.bin
-odm/firmware/tp/20659/FW_S6SY792_SAMSUNG_FAE.bin
-odm/firmware/tp/20659/LIMIT_S6SY792_SAMSUNG.img
-odm/firmware/tp/21005/FW_S3908_BOE.img
-odm/firmware/tp/21005/FW_S3908_BOE_FAE.img
-odm/firmware/tp/21005/FW_S3908_SAMSUNG.img
-odm/firmware/tp/21005/FW_S3908_SAMSUNG_FAE.img
-odm/firmware/tp/21005/LIMIT_S3908_BOE.img
-odm/firmware/tp/21005/LIMIT_S3908_SAMSUNG.img
-odm/firmware/tp/21617/FW_FT3658U_SAMSUNG.img
-odm/firmware/tp/21617/FW_FT3658U_SAMSUNG_FAE.img
-odm/firmware/tp/21617/LIMIT_FT3658U_SAMSUNG.img
-
 # Trusted Execution Environment connector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
