@@ -218,6 +218,8 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.cust.rc \
     init.kernel.post_boot.sh \
+    init.kernel.post_boot-lahaina.sh \
+    init.kernel.post_boot-yupik.sh \
     init.oem_ftm.rc \
     init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
