@@ -189,6 +189,15 @@
             <instance>oplus_app_slot2</instance>
         </interface>
     </hal>
+    <hal format="hidl">    
+        <name>vendor.oplus.hardware.biometrics.fingerprint</name>
+        <transport>hwbinder</transport>
+        <version>2.1</version>
+        <interface>
+            <name>IBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal> 
     <hal format="hidl">
         <name>vendor.oplus.hardware.ims</name>
         <transport>hwbinder</transport>
@@ -208,7 +217,7 @@
             <instance>oplus_slot1</instance>
             <instance>oplus_slot2</instance>
         </interface>
-    </hal>  
+    </hal>
     <hal format="hidl">
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>

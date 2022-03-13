@@ -476,6 +476,17 @@ vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 vendor/bin/feature_enabler_client
 vendor/etc/init/feature_enabler_client.rc
 
+# Fingerprint
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
+odm/bin/init.oplus.fingerprints.sh
+odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
+odm/lib/anc.hal.so
+odm/lib/vendor.oplus.hardware.commondcs@1.0.so
+odm/lib/vendor.oplus.hardware.performance@1.0.so
+odm/lib64/anc.hal.so
+odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
+odm/lib64/vendor.oplus.hardware.performance@1.0.so
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc

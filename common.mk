@@ -308,8 +308,9 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.oneplus
-
+    android.hardware.biometrics.fingerprint@2.3-service.oplus \
+    vendor.oplus.hardware.biometrics.fingerprint@2.1
+    
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
@@ -477,7 +478,8 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/oneplus
+    hardware/oneplus \
+    hardware/oplus
 
 # Telephony
 PRODUCT_PACKAGES += \
