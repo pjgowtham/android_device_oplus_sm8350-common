@@ -1,0 +1,6 @@
+type oplus_hal_ormsHal, domain;
+
+type oplus_hal_ormsHal_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(oplus_hal_ormsHal)
+
+hwbinder_use(oplus_hal_ormsHal)

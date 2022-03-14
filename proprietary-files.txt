@@ -272,6 +272,18 @@ vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
 
+# Camera (HAL)
+odm/bin/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-service
+odm/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc
+odm/etc/orms/orms_permission_config.xml
+-odm/framework/vendor.oplus.hardware.orms.ormsHalService-V1.0-java.jar
+odm/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so
+odm/lib64/libormshalclient.so
+odm/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so
+odm/lib64/vendor.oplus.hardware.orms@1.0.so
+vendor/lib64/libmidasserviceintf.so
+vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
+
 # Charger
 odm/bin/hw/vendor.oplus.hardware.charger@1.0-service
 odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc

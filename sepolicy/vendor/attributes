@@ -18,3 +18,7 @@ attribute hal_display_iris_server;
 attribute hal_param;
 attribute hal_param_client;
 attribute hal_param_server;
+
+attribute halService_orms;
+attribute halService_orms_client;
+attribute halService_orms_server;

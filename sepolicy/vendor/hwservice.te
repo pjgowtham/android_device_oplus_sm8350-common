@@ -2,4 +2,6 @@ type hal_cameraHIDL_hwservice, hwservice_manager_type;
 type hal_charger_hwservice, hwservice_manager_type;
 type hal_display_hwservice, hwservice_manager_type;
 type hal_display_iris_hwservice, hwservice_manager_type;
+type hal_midas_hwservice, hwservice_manager_type;
+type halService_orms_hwservice, hwservice_manager_type;
 type hal_param_hwservice, hwservice_manager_type;

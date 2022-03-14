@@ -8,9 +8,11 @@ vendor.oneplus.hardware.display::IOneplusDisplay                           u:obj
 vendor.oneplus.hardware.param::IOneplusParam                               u:object_r:hal_param_hwservice:s0
 vendor.oplus.hardware.appradio::IOplusAppRadio                             u:object_r:hal_telephony_hwservice:s0
 vendor.oplus.hardware.biometrics.fingerprint::IBiometricsFingerprint       u:object_r:hal_fingerprint_hwservice:s0
+vendor.oplus.hardware.cammidasservice::IMIDASService                       u:object_r:hal_midas_hwservice:s0
 vendor.oplus.hardware.charger::ICharger                                    u:object_r:hal_charger_hwservice:s0
 vendor.oplus.hardware.displaypanelfeature::IDisplayPanelFeature            u:object_r:hal_display_hwservice:s0
 vendor.oplus.hardware.ims::IOplusImsRadio                                  u:object_r:hal_telephony_hwservice:s0
+vendor.oplus.hardware.orms.ormsHalService::IOrmsHalService                 u:object_r:halService_orms_hwservice:s0
 vendor.oplus.hardware.radio::IOplusRadio                                   u:object_r:hal_telephony_hwservice:s0
 vendor.pixelworks.hardware.display::IIris                                  u:object_r:hal_display_iris_hwservice:s0
 vendor.pixelworks.hardware.feature::IIrisFeature                           u:object_r:hal_display_iris_hwservice:s0
