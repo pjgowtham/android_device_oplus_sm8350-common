@@ -5,3 +5,4 @@ type hal_display_iris_hwservice, hwservice_manager_type;
 type hal_midas_hwservice, hwservice_manager_type;
 type halService_orms_hwservice, hwservice_manager_type;
 type hal_param_hwservice, hwservice_manager_type;
+type oplus_wifi_hal_service, hwservice_manager_type;

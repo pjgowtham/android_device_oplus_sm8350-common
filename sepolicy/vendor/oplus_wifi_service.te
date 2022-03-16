@@ -1,0 +1,6 @@
+type oplus_wifi_service, domain;
+
+type oplus_wifi_service_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(oplus_wifi_service)
+
+hwbinder_use(oplus_wifi_service)

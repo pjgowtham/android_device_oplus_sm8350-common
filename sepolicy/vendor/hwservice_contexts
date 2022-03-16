@@ -16,3 +16,6 @@ vendor.oplus.hardware.orms.ormsHalService::IOrmsHalService                 u:obj
 vendor.oplus.hardware.radio::IOplusRadio                                   u:object_r:hal_telephony_hwservice:s0
 vendor.pixelworks.hardware.display::IIris                                  u:object_r:hal_display_iris_hwservice:s0
 vendor.pixelworks.hardware.feature::IIrisFeature                           u:object_r:hal_display_iris_hwservice:s0
+vendor.oplus.hardware.wifi.hostapd::IOplusHostapd             u:object_r:hal_wifi_hostapd_hwservice:s0
+vendor.oplus.hardware.wifi.supplicant::IOplusSupplicant       u:object_r:hal_wifi_supplicant_hwservice:s0
+vendor.oplus.hardware.wifi::IOplusWifiService                 u:object_r:oplus_wifi_hal_service:s0

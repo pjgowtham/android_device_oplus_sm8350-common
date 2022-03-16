@@ -867,6 +867,7 @@
         <interface>
             <name>IHostapdVendor</name>
             <instance>default</instance>
+            <instance>wigighostapd</instance>            
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -992,6 +993,39 @@
         <interface>
             <name>IQtiVoicePrintService</name>
             <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.oplus.hardware.wifi</name>
+        <version>1.1</version>
+        <interface>
+            <name>IOplusWifiService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.oplus.hardware.wifi.hostapd</name>
+        <version>1.0</version>
+        <interface>
+            <name>IOplusHostapd</name>
+            <instance>default</instance>
+            <instance>wigighostapd</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.oplus.hardware.wifi.supplicant</name>
+        <version>2.0</version>
+        <interface>
+            <name>IOplusSupplicant</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.wifi.hostapd</name>
+        <version>1.2</version>
+        <interface>
+            <name>IHostapd</name>
+            <instance>wigighostapd</instance>
         </interface>
     </hal>
 </compatibility-matrix>
