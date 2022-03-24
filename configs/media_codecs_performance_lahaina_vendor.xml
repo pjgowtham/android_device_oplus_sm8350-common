@@ -26,37 +26,39 @@
     <Decoders>
         <!-- C2 HW decoders -->
         <MediaCodec name="c2.qti.avc.decoder" type="video/avc" update="true">
-            <Limit name="measured-frame-rate-320x240" range="720-2500" />
-            <Limit name="measured-frame-rate-720x480" range="267-587" />
-            <Limit name="measured-frame-rate-1280x720" range="250-950" />
-            <Limit name="measured-frame-rate-1920x1088" range="72-160" />
+            <Limit name="measured-frame-rate-320x240" range="720-1584" />
+            <Limit name="measured-frame-rate-720x480" range="450-990" />
+            <Limit name="measured-frame-rate-1280x720" range="180-396" />
+            <Limit name="measured-frame-rate-1920x1088" range="120-264" />
         </MediaCodec>
         <MediaCodec name="c2.qti.avc.decoder.low_latency" type="video/avc" update="true">
-            <Limit name="measured-frame-rate-320x240" range="380-2000" />
-            <Limit name="measured-frame-rate-720x480" range="233-512" />
-            <Limit name="measured-frame-rate-1280x720" range="187-412" />
-            <Limit name="measured-frame-rate-1920x1080" range="120-410" />
+            <Limit name="measured-frame-rate-320x240" range="380-836" />
+            <Limit name="measured-frame-rate-720x480" range="380-836" />
+            <Limit name="measured-frame-rate-1280x720" range="253-556" />
+            <Limit name="measured-frame-rate-1920x1080" range="120-264" />
         </MediaCodec>
         <MediaCodec name="c2.qti.hevc.decoder" type="video/hevc" update="true">
-            <Limit name="measured-frame-rate-352x288" range="358-787" />
-            <Limit name="measured-frame-rate-720x480" range="303-666" />
-            <Limit name="measured-frame-rate-1280x720" range="208-458" />
-            <Limit name="measured-frame-rate-1920x1080" range="146-321" />
-            <Limit name="measured-frame-rate-3840x2160" range="67-231" />
+            <Limit name="measured-frame-rate-352x288" range="465-1023" />
+            <Limit name="measured-frame-rate-640x360" range="400-880" />
+            <Limit name="measured-frame-rate-720x480" range="300-660" />
+            <Limit name="measured-frame-rate-1280x720" range="220-484" />
+            <Limit name="measured-frame-rate-1920x1080" range="200-440" />
+            <Limit name="measured-frame-rate-3840x2160" range="100-220" />
         </MediaCodec>
         <MediaCodec name="c2.qti.hevc.decoder.low_latency" type="video/hevc" update="true">
-            <Limit name="measured-frame-rate-352x288" range="297-653" />
-            <Limit name="measured-frame-rate-720x480" range="272-598" />
-            <Limit name="measured-frame-rate-1280x720" range="201-441" />
-            <Limit name="measured-frame-rate-1920x1080" range="220-800" />
-            <Limit name="measured-frame-rate-3840x2160" range="67-240" />
+            <Limit name="measured-frame-rate-352x288" range="390-858" />
+            <Limit name="measured-frame-rate-640x360" range="390-858" />
+            <Limit name="measured-frame-rate-720x480" range="390-858" />
+            <Limit name="measured-frame-rate-1280x720" range="270-594" />
+            <Limit name="measured-frame-rate-1920x1080" range="220-484" />
+            <Limit name="measured-frame-rate-3840x2160" range="67-147" />
         </MediaCodec>
         <MediaCodec name="c2.qti.vp9.decoder" type="video/x-vnd.on2.vp9" update="true">
-            <Limit name="measured-frame-rate-320x180" range="270-594" />
-            <Limit name="measured-frame-rate-640x360" range="177-389" />
-            <Limit name="measured-frame-rate-1280x720" range="142-327" />
-            <Limit name="measured-frame-rate-1920x1080" range="130-450" />
-            <Limit name="measured-frame-rate-3840x2160" range="39-255" />
+            <Limit name="measured-frame-rate-320x180" range="415-913" />
+            <Limit name="measured-frame-rate-640x360" range="265-583" />
+            <Limit name="measured-frame-rate-1280x720" range="142-312" />
+            <Limit name="measured-frame-rate-1920x1080" range="130-286" />
+            <Limit name="measured-frame-rate-3840x2160" range="60-132" />
         </MediaCodec>
         <!-- TODO: add C2 mpeg2 decoder performance data -->
 
@@ -66,7 +68,15 @@
             <Limit name="measured-frame-rate-320x240" range="211-600" /> <!-- N=266 v98%=1.6 -->
             <Limit name="measured-frame-rate-720x480" range="57-405" /> <!-- N=266 v98%=1.5 -->
             <Limit name="measured-frame-rate-1280x720" range="17-98" /> <!-- N=236 v98%=1.5 (-PD1A.180712.003) -->
-            <Limit name="measured-frame-rate-1920x1080" range="6-82" /> <!-- N=272 v98%=1.4 -->
+<!-- #ifndef OPLUS_BUG_COMPATIBILITY -->
+<!-- Xiaopeng.Hu@MULTIMEDIA.MEDIASERVER.PLAYER.2304208, 2021/10/02, -->
+<!-- Modify for testAvcGoog0Perf1920x1080 cts -->
+<!--
+            <Limit name="measured-frame-rate-1920x1080" range="6-82" />
+-->
+<!-- #else  //OPLUS_BUG_COMPATIBILITY -->
+            <Limit name="measured-frame-rate-1920x1080" range="26-82" /> <!-- N=272 v98%=1.4 -->
+<!-- #endif //OPLUS_BUG_COMPATIBILITY -->
         </MediaCodec>
         <MediaCodec name="c2.android.hevc.decoder" type="video/hevc" update="true">
             <Limit name="measured-frame-rate-352x288" range="220-950" /> <!-- N=270 v98%=1.6 -->
@@ -89,8 +99,8 @@
             <!-- measured 98%:173-698 med:670/668 FLAKY(mn=161.4 < 162 - 1336) variance:2.0 -->
             <Limit name="measured-frame-rate-320x180" range="488-1500" /> <!-- TWEAKED N=228 -->
             <Limit name="measured-frame-rate-640x360" range="265-900" /> <!-- N=272 v98%=1.9 (-PD1A.180717.001) -->
-            <Limit name="measured-frame-rate-1280x720" range="95-400" /> <!-- N=270 v98%=1.3 (-PD1A.180717.001) -->
-            <Limit name="measured-frame-rate-1920x1080" range="50-215" /> <!-- N=230 v98%=1.2 -->
+            <Limit name="measured-frame-rate-1280x720" range="95-209" />
+            <Limit name="measured-frame-rate-1920x1080" range="50-110" />
         </MediaCodec>
         <MediaCodec name="c2.android.h263.decoder" type="video/3gpp" update="true">
             <!-- measured 98%:151-1143 med:437/432 FLAKY(111 - 972 < mx=1146.8) variance:2.8 -->
