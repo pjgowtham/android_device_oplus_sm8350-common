@@ -214,13 +214,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_fw_fstab.qti \
     fstab.qcom \
-    ftm_power_config.sh \
     init.class_main.sh \
     init.cust.rc \
     init.kernel.post_boot.sh \
     init.kernel.post_boot-lahaina.sh \
     init.kernel.post_boot-yupik.sh \
-    init.oem_ftm.rc \
     init.oplus.display.rc \
     init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
@@ -238,8 +236,6 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc \
-    vendor.oem_ftm.rc \
-    vendor.oem_ftm_svc_disable.rc \
     vendor_modprobe.sh \
     init.wlan.qcom.rc
 
