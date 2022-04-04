@@ -130,13 +130,13 @@
         <param key="HEADSET_MIC_LOOPBACK" value="TX4_CDC_DMA Hostless"/>
         <!--#Jianfeng.Qiu@PSW.MM.AudioDriver.HAL, 2019/08/22, Add for oplus config end-->
         <!--wei.hua@MM.AudioDriver.OPLUS_FEATURE_4CH_AEC, 2019/12/20, Add for 4ch aec -->
-        <param key="noise_reduction_aec" value="false"/>
+        <param key="noise_reduction_aec" value="enable"/>
         <!--wei.hua@MM.AudioDriver.OPLUS_FEATURE_4CH_AEC, 2019/12/20, Add for 4ch aec end-->
         <!--webber.yan@MM.AudioService.OPLUS_FEATURE_SWITCH_MIC, 2020/12/18, Add for camcorder switch mic -->
-        <param key="camcorder_switch_mic" value="false"/>
+        <param key="camcorder_switch_mic" value="true"/>
         <!--webber.yan@MM.AudioService.OPLUS_FEATURE_SWITCH_MIC, 2020/12/18, Add for camcorder switch end -->
         <!--#Juqiang.Geng@MULTIMEDIA.AUDIODRIVER.HAL.OPLUS_FEATURE_AP_LVIMFS, 2020/08/24, Add for AP LVIMFS-->
-        <param key="record_use_ap_lvimfs" value="false"/>
+        <param key="record_use_ap_lvimfs" value="enable"/>
         <!--#Juqiang.Geng@MULTIMEDIA.AUDIODRIVER.HAL, 2020/08/24, Add for AP LVIMFS end-->
         <!--#Yongzhi.Zhang@PSW.MM.AudioDriver.HAL.413701, 2020/09/22, Add for old audiovoice scence-->
         <param key="use_audiovoice_scence" value="false"/>
