@@ -17,21 +17,21 @@ system_ext/lib/com.qualcomm.qti.ant@1.0.so
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
-# Audio libraries
-vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcreverb.so
-vendor/lib/soundfx/libqcvirt.so
-vendor/lib/soundfx/libshoebox.so
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
-vendor/lib/libadm.so
-vendor/lib/libadsprpc.so
-vendor/lib/libaudcal.so
-vendor/lib/libqtigef.so
-vendor/lib64/libadsprpc.so
+# Audio libraries - from realme/RMX3360/RE54ABL1:12/RKQ1.210503.001/R.202203150246:user/release-keys
+vendor/lib/libacdb-fts.so|db88d3aa5564db743c3b85a01aac7028967514be
+vendor/lib/libacdbloader.so|f6ef4cd59d207b14eed38c0e158cf53bf9cb1f6e
+vendor/lib/libacdbrtac.so|22433bbe123675fab8866c1e03a97678cb9b862e
+vendor/lib/libadiertac.so|ffdb9404d72e62b7794bb9b3fd55deb21a5e4925
+vendor/lib/libadm.so|ceb6b3d0ba0d41bb5d923fc4ff4699fdf9b0003f
+vendor/lib/libadsprpc.so|18e097ace2ae5032e12d02247733071953849868
+vendor/lib/libaudcal.so|0df152e09fbcc1daa0fe48b2a8da75902b923312
+vendor/lib/libqtigef.so|c7d588a80c3aac52b160db6ded1528bb8b8fd7bd
+vendor/lib/soundfx/libasphere.so|a742e8196f321571132113e0052b9c947cb9d37a
+vendor/lib/soundfx/libqcbassboost.so|f798a2bf1c4000b6a76281f48ef8ff4bc4565520
+vendor/lib/soundfx/libqcreverb.so|dd52b521ea1f3f28e3f7cf8a42a596bfe44a929f
+vendor/lib/soundfx/libqcvirt.so|0cae5569df72dd58558b46fa3daceca1def89a61
+vendor/lib/soundfx/libshoebox.so|220745509dcc7874bc253d4f892d7ee0cd52d7ca
+vendor/lib64/libadsprpc.so|63bf8846ad14789a3ce2c8f622d8fa708089f1be
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
