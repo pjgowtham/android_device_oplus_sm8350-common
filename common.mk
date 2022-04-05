@@ -237,7 +237,8 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc \
     vendor_modprobe.sh \
-    init.wlan.qcom.rc
+    init.wlan.qcom.rc \
+    init.cust.sh
 
 # Component overrides
 PRODUCT_COPY_FILES += \

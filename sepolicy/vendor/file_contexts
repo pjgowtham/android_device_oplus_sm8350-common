@@ -58,6 +58,7 @@
 # Init scripts
 /(vendor|odm|system/vendor)/bin/init\.oppo\.fingerprints\.sh  u:object_r:vendor_qti_init_shell_exec:s0
 /odm/bin/init\.oplus\.wifi\.sh            u:object_r:vendor_qti_init_shell_exec:s0
+/vendor/bin/init\.cust\.sh            u:object_r:vendor_qti_init_shell_exec:s0
 /(vendor|odm|system/vendor)/bin/vendor.autochmod.sh  u:object_r:vendor_qti_init_shell_exec:s0
 
 # OP1, OP2 files

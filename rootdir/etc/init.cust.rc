@@ -14,3 +14,8 @@ on property:ro.boot.rf_version=4
 # Europe
 on property:ro.boot.rf_version=21
     setprop persist.radio.multisim.config dsds
+
+service custom_script /vendor/bin/sh /vendor/bin/init.cust.sh
+    user root
+    group root
+    oneshot
