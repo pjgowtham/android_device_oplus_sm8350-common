@@ -293,7 +293,7 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    OnePlusDoze
+    OplusDoze
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -356,7 +356,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.oneplus
+    vendor.lineage.livedisplay@2.1-service.oplus
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -428,10 +428,10 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # OnePlus
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     oneplus-fwk
 
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     oneplus-fwk
 
 # Power
@@ -502,10 +502,10 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.oneplus
+    vendor.lineage.touch@1.0-service.oplus
 
 # tri-state-key
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     KeyHandler \
     tri-state-key-calibrate
 
