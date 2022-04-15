@@ -27,3 +27,5 @@ type sysfs_tri_state_key, sysfs_type, fs_type;
 
 # Fingerprint
 type vendor_proc_fingerprint, fs_type, proc_type;
+
+type vendor_proc_engineer, fs_type, proc_type;

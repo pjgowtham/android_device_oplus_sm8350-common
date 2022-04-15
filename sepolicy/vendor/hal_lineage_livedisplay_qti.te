@@ -3,3 +3,6 @@ allow hal_lineage_livedisplay_qti vendor_display_vendor_data_file:file create_fi
 
 allow hal_lineage_livedisplay_qti vendor_sysfs_graphics:dir r_dir_perms;
 allow hal_lineage_livedisplay_qti sysfs_livedisplay_tuneable:file rw_file_perms;
+
+allow hal_lineage_livedisplay_qti vendor_sysfs_graphics:file rw_file_perms;
+r_dir_file(hal_lineage_livedisplay_qti, vendor_sysfs_graphics)
