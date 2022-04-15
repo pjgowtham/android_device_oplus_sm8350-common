@@ -7,12 +7,14 @@ type opf_file, file_type;
 # procfs
 type proc_direct_swappiness, fs_type, proc_type;
 type proc_swappiness, fs_type, proc_type;
-type proc_touchpanel, fs_type, proc_type;
 type proc_watermark_boost_factor, fs_type, proc_type;
+type proc_oplus_fp, fs_type, proc_type;
+
+# Display
+type vendor_proc_display, fs_type, proc_type;
 
 # sysfs
 type sysfs_dbg, fs_type, sysfs_type;
-type sysfs_display, sysfs_type, fs_type;
 type sysfs_fod, fs_type, sysfs_type;
 type sysfs_fsc, fs_type, sysfs_type;
 type sysfs_fuse, fs_type, sysfs_type;
@@ -22,3 +24,6 @@ type sysfs_project_info, fs_type, sysfs_type;
 type sysfs_tof_control, fs_type, sysfs_type;
 type sysfs_tpd, fs_type, sysfs_type;
 type sysfs_tri_state_key, sysfs_type, fs_type;
+
+# Fingerprint
+type vendor_proc_fingerprint, fs_type, proc_type;
