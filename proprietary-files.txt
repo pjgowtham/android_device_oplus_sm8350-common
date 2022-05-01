@@ -331,6 +331,7 @@ odm/lib64/hw/fingerprint.goodix_G3.default.so
 odm/lib64/anc.hal.so
 odm/lib64/libgf_hal_G3.so
 odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
+odm/lib64/vendor.oplus.hardware.performance@1.0.so
 odm/vendor/firmware/goodixfp.b00
 odm/vendor/firmware/goodixfp.b01
 odm/vendor/firmware/goodixfp.b02
