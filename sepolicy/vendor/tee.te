@@ -1,0 +1,2 @@
+allow tee vendor_persist_fingerprint_file:dir { open  read  search };
+allow tee vendor_persist_fingerprint_file:file { getattr  open  read };
