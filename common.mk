@@ -311,6 +311,14 @@ $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
+ifeq ($(PRODUCT_BRAND),OnePlus)
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay_oneplus
+else
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay_oplus
+endif
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
