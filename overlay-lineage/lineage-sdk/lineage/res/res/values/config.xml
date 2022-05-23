@@ -61,6 +61,4 @@
         <item>restart_fastboot</item>
      </string-array>
 
-    <!-- Whether the device supports wireless charging or not -->
-    <bool name="config_deviceSupportsWirelessCharging">true</bool>
 </resources>
