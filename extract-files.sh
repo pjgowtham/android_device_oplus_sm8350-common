@@ -70,7 +70,10 @@ function blob_fixup() {
             sed -i "s/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/" "${2}"
             ;;
         vendor/lib64/hw/com.qti.chi.override.so)
-            "${SIGSCAN}" -p "C0 6D 05 94" -P "1F 20 03 D5" -f "${2}"
+            "${SIGSCAN}" -p "C0 6D 05 94" -P "1F 20 03 D5" -f "${2}" #lemonade/p
+            "${SIGSCAN}" -p "34 7D 05 94" -P "1F 20 03 D5" -f "${2}" #RMX2202            
+            "${SIGSCAN}" -p "C0 06 05 94" -P "1F 20 03 D5" -f "${2}" #RMX3360
+            "${SIGSCAN}" -p "6B 8C 05 94" -P "1F 20 03 D5" -f "${2}" #RMX3312
             ;;
         vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
             "${SIGSCAN}" -p "3F 0A 00 94" -P "1F 20 03 D5" -f "${2}"
