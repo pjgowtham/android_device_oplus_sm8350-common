@@ -297,6 +297,8 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2-service-gto \
     com.android.nfc_extras \
     nqnfcinfo \
+    SecureElement \
+    NfcNci \
     Tag
 endif
 ifeq ($(OPLUS_DEVICE_USES_SN100X_NFC),true)
