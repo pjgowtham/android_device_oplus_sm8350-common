@@ -185,6 +185,11 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # Fingerprint
+ifndef OPLUS_DEVICE_USES_PHYSICAL_FINGERPRINT
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage-FOD
+endif
+
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.oplus
 
