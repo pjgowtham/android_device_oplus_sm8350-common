@@ -300,7 +300,6 @@ PRODUCT_PACKAGES += \
 # NFC
 ifeq ($(OPLUS_DEVICE_USES_ST21_NFC),true)
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.2.vendor \
     android.hardware.nfc@1.2-service.st \
     android.hardware.nfc@1.2.vendor \
     android.hardware.secure_element@1.2-service-gto \
@@ -314,7 +313,6 @@ ifeq ($(OPLUS_DEVICE_USES_SN100X_NFC),true)
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/opensource/sn100x
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
     nqnfcinfo \
     Tag \
@@ -388,6 +386,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.5.vendor \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
+    android.hardware.secure_element@1.2.vendor \
     libprotobuf-cpp-full \
     librmnetctl
 
