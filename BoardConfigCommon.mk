@@ -79,6 +79,9 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     vendor/lineage/config/device_framework_matrix.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
+ifeq ($(OPLUS_DEVICE_USES_SNXXX_NFC),true)
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest_se.xml
+endif
 ODM_MANIFEST_FILES := $(COMMON_PATH)/manifest_odm.xml
 
 # Init
