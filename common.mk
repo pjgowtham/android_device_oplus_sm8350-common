@@ -302,7 +302,6 @@ ifeq ($(OPLUS_DEVICE_USES_ST21_NFC),true)
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.st \
     android.hardware.nfc@1.2.vendor \
-    android.hardware.secure_element@1.2-service-gto \
     com.android.nfc_extras \
     Tag
 
