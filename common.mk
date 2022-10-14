@@ -304,6 +304,8 @@ else ifeq ($(TARGET_NFC_CHIPSET),st21)
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.st \
     android.hardware.nfc@1.2.vendor
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf
 endif
 
 PRODUCT_COPY_FILES += \
