@@ -309,6 +309,8 @@ ifeq ($(OPLUS_DEVICE_USES_ST21_NFC),true)
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.st \
     android.hardware.nfc@1.2.vendor
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf
 endif
 
 PRODUCT_COPY_FILES += \
