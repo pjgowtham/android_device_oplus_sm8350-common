@@ -75,6 +75,12 @@ function blob_fixup() {
         vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
             "${SIGSCAN}" -p "23 0B 00 94" -P "1F 20 03 D5" -f "${2}"
             ;;
+        vendor/bin/hw/vendor.qti.hardware.vibrator.service.oplus)
+            "${PATCHELF}" --replace-needed "android.hardware.vibrator-V1-ndk_platform.so" "android.hardware.vibrator-V1-ndk.so" "${2}"
+            ;;
+        vendor/lib64/vendor.qti.hardware.vibrator.impl.so)
+            "${PATCHELF}" --replace-needed "android.hardware.vibrator-V1-ndk_platform.so" "android.hardware.vibrator-V1-ndk.so" "${2}"
+            ;;                       
     esac
 }
 
