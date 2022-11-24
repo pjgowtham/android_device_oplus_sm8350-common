@@ -116,7 +116,6 @@ TARGET_KERNEL_CONFIG := vendor/lahaina-qgki_defconfig
 ifdef TARGET_PREBUILT_KERNEL
 TARGET_FORCE_PREBUILT_KERNEL := true
 endif
-TARGET_KERNEL_NO_GCC := true
 
 # Kernel modules
 BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE := $(COMMON_PATH)/modules.blocklist
