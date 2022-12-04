@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from Realme GT2 (RMX3312_11_A.21)
+## from Realme GT2 (RMX3312_11_C.05)
 
 # ACDBs
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd
@@ -33,6 +33,7 @@ vendor/lib/libextcamera_client.so
 vendor/lib/libgui1_vendor.so
 vendor/lib/libssrec.so
 vendor/lib/vendor.oplus.hardware.extcamera@1.0.so
+vendor/lib/vendor.oplus.hardware.performance@1.0.so
 
 # Audio libraries
 vendor/lib/soundfx/libasphere.so
@@ -230,6 +231,7 @@ vendor/bin/hw/vendor.qti.hardware.display.composer-service
 vendor/bin/qdcmss
 vendor/etc/init/qdcmss.rc
 vendor/etc/snapdragon_color_libs_config.xml
+vendor/lib64/libcwb_sm8350.so
 vendor/lib64/libdisplayconfig.qti.so
 vendor/lib64/libdpps.so
 vendor/lib64/libhistogram.so
@@ -239,6 +241,7 @@ vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmutils.so
 vendor/lib64/libsnapdragoncolor-manager.so
 vendor/lib64/libsnapdragoncolor-qdcm.so
+vendor/lib64/vendor.oplus.hardware.cwb@1.0.so
 
 # Display (SDM)
 vendor/etc/display/DPU660.xml
