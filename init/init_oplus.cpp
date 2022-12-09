@@ -35,7 +35,20 @@ void OverrideProperty(const char* name, const char* value) {
 void vendor_load_properties() {
     auto device = GetProperty("ro.product.product.device", "");
     auto rf_version = std::stoi(GetProperty("ro.boot.rf_version", "0"));
+    auto prjname = std::stoi(GetProperty("ro.boot.prjname", "0"));
 
+    switch (prjname) {
+        case 20820: // CN
+               OverrideProperty("ro.product.product.model", "MT2110");
+               OverrideProperty("ro.product.product.device", "OP5154L1");
+            break;
+        case 20821: // IN
+               OverrideProperty("ro.product.product.model", "MT2111");
+               OverrideProperty("ro.product.product.device", "OP5155L1");
+            break;
+        default:
+            LOG(ERROR) << "Unexpected project name: " << prjname;
+    }
     switch (rf_version) {
         case 2: // EU
             if (device == "RMX3360") {
