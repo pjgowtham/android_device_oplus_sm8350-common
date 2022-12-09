@@ -331,9 +331,13 @@ odm/bin/init.oplus.fingerprints.sh
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
 odm/lib64/hw/fingerprint.goodix_G3.default.so
+odm/lib64/hw/fingerprint.silead.default.so
 odm/lib64/anc.hal.so
 odm/lib64/libgf_hal_G3.so
+odm/lib64/libosensehalclient.so
+odm/lib64/libsl_fp_impl.so
 odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
+odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
 odm/vendor/firmware/goodixfp.b00
 odm/vendor/firmware/goodixfp.b01
 odm/vendor/firmware/goodixfp.b02
@@ -343,6 +347,15 @@ odm/vendor/firmware/goodixfp.b05
 odm/vendor/firmware/goodixfp.b06
 odm/vendor/firmware/goodixfp.b07
 odm/vendor/firmware/goodixfp.mdt
+odm/vendor/firmware/ancap64.b00
+odm/vendor/firmware/ancap64.b01
+odm/vendor/firmware/ancap64.b02
+odm/vendor/firmware/ancap64.b03
+odm/vendor/firmware/ancap64.b04
+odm/vendor/firmware/ancap64.b05
+odm/vendor/firmware/ancap64.b06
+odm/vendor/firmware/ancap64.b07
+odm/vendor/firmware/ancap64.mdt
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
